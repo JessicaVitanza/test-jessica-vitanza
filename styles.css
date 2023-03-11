@@ -750,37 +750,40 @@ cursor: pointer;
     margin-left: -20px;
 }
 
-.slider {
+.novita .slider {
     position: relative;
     width: 100vw;
     overflow-x: scroll;
     overflow-y: hidden;
+    margin-left: -60px;
   }
   
-  .slider::-webkit-scrollbar {
+
+  .novita .slider::-webkit-scrollbar {
+    display: block;
     height: 6px;
   }
   
-  .slider::-webkit-scrollbar-track {
+  .novita .slider::-webkit-scrollbar-track {
     background: #f9f7f7;
   }
   
-  .slider::-webkit-scrollbar-thumb {
+  .novita .slider::-webkit-scrollbar-thumb {
     background: #474E4B;
     width: 10px;
     border-radius: 4px;
   }
   
-  .slider .slides {
+  .novita .slider .slides {
     display: flex;
-    gap: 50px;
+    gap: 60px;
   }
 
-  .slides div {
+  .novita .slides div {
       display: none;
   }
   
-  .slider .slides img {
+  .novita .slider .slides img {
     width: 565px;
     height: 700px;
   }
@@ -792,7 +795,7 @@ cursor: pointer;
   .novita-txt p{
       text-align: left;
       font-size: 1rem;
-      margin-left: 0px;
+      margin-left: 60px;
   }
 
   .novita .show-novita {
