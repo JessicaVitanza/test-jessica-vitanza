@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Test Jessica Vitanza</title>
+</head>
+<body>
+    <!-- ----------Hero------------ -->
+    <header class="hero">
+        <div class="overlay"></div>
+            <div class="hero-content">
+              <p>Lorem ipsum sit</p>
+              <p class="hero-txt">Eiusdem loci, <br> sit dolor amet neque</p>
+            </div>
+            <p class="show-collection">SCOPRI LA COLLEZIONE</p>
+      </header>
+
+      <!-- ----------Navbar------------ -->
+      <nav class="navbar">
+        <div>
+            <div class="dropdown">
+                <button class="dropbtn"><img class="toggle-menu" src="./assets/icons/menu.svg" alt="Menu Icon">
+                </button>
+                <div class="dropdown-content">
+                   <a href="#prodotti">Prodotti</a>
+                   <a href="#collezioni">Collezioni</a>
+                   <a href="#progetti">Progetti</a>
+                   <a href="#inspirations">Inspirations</a>
+                   <a href="#designer">Designer</a> 
+                </div>
+              </div>
+            <img class="logo" src="./assets/logo.svg" alt="">
+        </div>
+        <div>
+            <ul>
+                <li><a href="#prodotti">Prodotti</a></li>
+                <li><a href="#collezioni">Collezioni</a></li>
+                <li><a href="#progetti">Progetti</a></li>
+                <li><a href="#inspirations">Inspirations</a></li>
+                <li><a href="#designer">Designer</a></li>
+              </ul>
+            <div>
+                <img src="./assets/icons/search.svg" alt="">
+                <img src="./assets/icons/user.svg" alt="">
+                <img src="./assets/icons/cart.svg" alt="">
+            </div>
+        </div>
+        
+    </nav>
+
+    <!-- ----------Novità------------ -->
+      <section id="prodotti" class="novita">
+        <p>Novità 2022</p>
+          <div class="slider">
+            <div class="slides">
+                <img src="./assets/img/desktop/01_novita_01.jpg">
+                <img src="./assets/img/desktop/02_novita_02.jpg">
+                <img src="./assets/img/desktop/03_novita_03.jpg">
+            </div>
+            <div class="novita-txt">
+                <p>Lorem ipsum sit dolor</p>
+                <p>by Studio Design</p>
+            </div>
+            <div class="scrollbar">
+              <div class="thumb"></div>
+            </div>
+          </div>           
+          <p class="show-novita">Guarda tutte le novità</p>        
+      </section>
+    
+    <!-- ----------Collezioni------------ -->
+    <section id="collezioni" class="collezioni">
+        <img src="./assets/img/desktop/04_collezioni.jpg" alt="">
+        <p>Collezioni</p>
+        <p class="show-collezioni">scopri</p>
+    </section>
+
+    <!-- ----------Inspirations------------ -->
+    <section id="inspirations" class="inspirations">
+        <img src="./assets/img/desktop/05_inspirations.jpg" alt="">
+        <p>Inspirations</p>
+        <p class="show-inspirations">lasciati ispirare</p>
+    </section>
+
+    <!-- ----------Progetti------------ -->
+    <section id="progetti" class="progetti">
+        <div class="overlay-progetti"></div>
+        <p>Progetti</p>
+        <p class="show-progetti">guarda progetti</p>
+    </section>
+
+    <!-- ------Studio---------- -->
+    <section class="studio">
+        <p>— Lorem ispsum sit dolor amet neque sumus eiusdem loci sic et simpliciter nemo profeta in patria cum asperium
+            et nox populi exibir animus predatorum neque. Dolor amet neque sumus.</p>   
+            <p class="show-studio">scopri studio</p>
+    </section>
+    
+    <!-- ----------Stories------------ -->
+    <section id="designer" class="stories">
+        <p>Stories</p>
+          <div class="slider">
+            <div class="slides">
+                <img src="./assets/img/desktop/07_stories_01.jpg">
+                <div></div>
+                <img src="./assets/img/desktop/08_stories_02.jpg">
+               <div></div>
+                <img src="./assets/img/desktop/09_stories_03.jpg">
+            </div>
+            <div class="stories-txt">
+                <p class="stories-txt-p">Iconic Animus rupestre</p>
+                <p>Realismo poetico e design senza 
+                   tempo ispirano ogni collezione.</p>
+            </div>
+            <div class="scrollbar">
+              <div class="thumb"></div>
+            </div>
+          </div>           
+          <p class="show-stories">scopri le stories</p> 
+      </section>
+
+    <!-- ----------Contatti------------ -->
+    <section class="contatti">
+        <p>Rimani informato</p>
+        <p class="contatti-txt">Iscriviti alla newsletter e ricevi aggiornamenti su prodotti, eventi e ispirazioni.</p>
+        <p class="show-contatti">Indirizzo e-mail | ISCRIVITI</p>
+        <div class="checkbox">
+            <input type="checkbox" id="myCheckbox" name="myCheckbox" value="myValue">
+            <label for="myCheckbox">Acconsento al trattamento dei dati personali come da informativa</label>
+        </div>
+    </section>
+
+    <!-- ----------Footer------------ -->
+    <footer>
+      <div class="top-footer">
+          <img src="./assets/copialogo.svg" alt="">
+          <div class="change-language">
+              <p>LINGUA: </p>
+              <div class="language-dropdown">
+                <select id="language-select">
+                  <option value="it">Italiano</option>
+                  <option value="en">English</option>
+                  <option value="es">Español</option>
+                  <option value="fr">Français</option>
+                </select>
+                <i class="fa fa-chevron-down" id="dropdown-icon"></i>
+              </div>
+          </div>
+      </div>
+      <div class="info">
+        <p>Sede Legale</p>
+        <p>via Dante, 16 20123 Roma  — Italy </p>
+        <br>
+        <p>tel +39 06 200 300</p>
+        <p> info@studio.com</p>
+      </div>
+      <div class="links">
+          <div>
+            <a href="">Showroom</a>
+            <a href="">Contatti</a>
+            <a href="">Area professionisti</a>
+          </div>
+          <div>
+            <a href="">Newsroom</a>
+            <a href="">Pressroom</a>
+            <a href=""> Condizioni di vendita</a>
+          </div>
+      </div>
+      <hr>
+      <div class="icons">
+          <img src="./assets/icons/social/facebook.svg" alt="">
+          <img src="./assets/icons/social/instagram.svg" alt="">
+          <img src="./assets/icons/social/pinterest-light.svg" alt="">
+          <img src="./assets/icons/social/linkedin.svg" alt="">
+          <img src="./assets/icons/social/youtube-play.svg" alt="">
+      </div>
+      <hr class="hr2">
+      <div class="policy">
+          <a href="">Cookie policy</a>
+          <a href="">Privacy policy</a>
+          <a href="">Credits</a>
+      </div>
+    </footer>
+
+    <button id="back-to-top-button" class="topscroll"><img src="./assets/icons/arrow-top.svg" alt=""></button>
+</body>
+<script src="script.js"></script>
+</html>
