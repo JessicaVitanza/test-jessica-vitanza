@@ -48,6 +48,10 @@ body, html {
     margin: 0rem;
 }
 
+.navbar .cart-point {
+    display: none;
+}
+
 
 /* Nascondi il dropdown content per default */
 .navbar div .dropdown-content {
@@ -685,6 +689,18 @@ ul li a{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.navbar div div {
+    position: relative;
+    font-size: 2rem;
+}
+
+.navbar .cart-point {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -4px;
 }
 
 /* --------------Hero---------------- */
